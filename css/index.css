@@ -1,0 +1,83 @@
+*{
+    margin: 0;padding: 0;
+    list-style: none;
+    text-decoration: none;
+    /*color: #000;*/
+}
+
+#header {
+    position:absolute;
+    left:0;
+    top:0;
+    z-index:999;
+    width: 100%;
+    height: 1rem;
+    overflow: hidden;
+    background: #D43D3D;
+    font: 0.4rem/1rem hiragino sans gb, microsoft yahei, simsun;
+    box-shadow:3px 3px 3px rgba(0,0,0,0.2);
+}
+#header .swiper-slide {
+    padding: 0 20px;
+    width:auto;
+    color: #fff;
+}
+#header .swiper-slide a{
+    color: #fff;
+}
+#tabs-container{
+    width: 100%;
+    height: 12.34rem;
+    margin-top: 1rem;
+    font-size: 0.5rem;
+}
+#header .swiper-slide a.active {
+    color: #2E50BB;
+}
+.news-list li{
+    width: 100%;
+    font-size: 0.4rem;
+    box-sizing: border-box;
+    padding: 0.75rem 0.2rem;
+    border-bottom: 2px solid #f4f4f4;
+    box-shadow: 0 1px 1px #fff;
+}
+.news-list li:before,.news-list li:after{
+    content: "";display: block;
+}
+.news-list li:after{
+    clear: both;
+}
+.news-list li p{
+    width: 60%;
+    float: left;
+}
+.news-list li p a{
+    color: #666;
+}
+.news-list li img{
+    width: 30%;
+    margin: 0 5%;
+    float: right;
+}
+.news-list li b{
+    font-size: 0.4rem;
+    display: block;
+    margin-top: 0.4rem;
+}
+
+footer{
+    width: 100%;height: 0.72rem;border-top: 2px solid #F4F4F4;
+    background: #F4F5F6;
+    position: fixed;
+    left: 0;bottom: 0;
+    display: flex;
+    display: -webkit-flex;
+    z-index: 999;
+    color: #CCC;
+}
+footer .one{
+    width: 25%;
+    font-size: 0.3rem;
+}
+
